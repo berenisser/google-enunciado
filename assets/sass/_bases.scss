@@ -1,0 +1,21 @@
+.heading{
+	padding: 40px;
+	.newsfeed{
+		border-top: 4px solid #6343FA;
+	}
+	.fotos{
+		border-top: 4px solid #6343FA;
+		border-bottom: 4px solid #6343FA;
+		@for $i from 1 through 6{
+			.portafolio-#{$i}{
+				width: 470px;
+				height: 290px;
+				background-image: url(../img/portafolio#{$i}.jpg);
+				background-size:cover;
+				background-position: center;
+				margin: 20px 0;
+			}
+		}
+	}
+
+}
