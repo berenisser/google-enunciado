@@ -8,7 +8,7 @@
 		border-bottom: 4px solid #6343FA;
 		@for $i from 1 through 6{
 			.portafolio-#{$i}{
-				width: 470px;
+				width: 540px;
 				height: 290px;
 				background-image: url(../img/portafolio#{$i}.jpg);
 				background-size:cover;
